@@ -13,9 +13,9 @@ automatically, using Polymer bindings. Example:
   from HTML and may be out of place here. Review them and
   then delete this comment!
 */
-import { Element } from '../@polymer/polymer/polymer-element.js';
+import { PolymerElement } from '@polymer/polymer';
 
-class PageTitle extends Element {
+class PageTitle extends PolymerElement {
   static get is() {return 'page-title'}
   static get properties() {
     return {
