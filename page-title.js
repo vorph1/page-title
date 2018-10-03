@@ -15,7 +15,7 @@ automatically, using Polymer bindings. Example:
 */
 import { PolymerElement } from '@polymer/polymer';
 
-class PageTitle extends PolymerElement {
+export class PageTitle extends PolymerElement {
   static get is() {return 'page-title'}
   static get properties() {
     return {
